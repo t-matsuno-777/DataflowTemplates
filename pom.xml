@@ -62,7 +62,7 @@
     <commons-lang3.version>3.14.0</commons-lang3.version>
     <conscrypt.version>2.5.2</conscrypt.version>
     <derby.version>10.14.2.0</derby.version>
-    <grpc.gen.version>1.13.1</grpc.gen.version>
+    <grpc.gen.version>1.67.1</grpc.gen.version>
     <guava.version>32.0.1-jre</guava.version>
     <hadoop.version>3.4.0</hadoop.version>
     <hamcrest.version>2.1</hamcrest.version>
@@ -736,14 +736,14 @@
   </distributionManagement>
   <modules>
     <module>metadata</module>
-    <module>plugins</module>
+    <!-- <module>plugins</module>
     <module>it</module>
     <module>lt</module>
-    <module>v1</module>
+    <module>v1</module> -->
     <module>v2</module>
-    <module>structured-logging</module>
+    <!-- <module>structured-logging</module>
     <module>plaintext-logging</module>
     <module>python</module>
-    <module>yaml</module>
+    <module>yaml</module> -->
   </modules>
 </project>

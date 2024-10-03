@@ -671,15 +671,15 @@
     </profiles>
 
     <modules>
-        <module>astradb-to-bigquery</module>
+        <!-- <module>astradb-to-bigquery</module>
         <module>azure-eventhub-to-pubsub</module>
-        <module>bigtable-changestreams-to-hbase</module>
+        <module>bigtable-changestreams-to-hbase</module> -->
         <module>bigtable-common</module>
-        <module>bigquery-to-bigtable</module>
+        <!-- <module>bigquery-to-bigtable</module>
         <module>bigquery-to-parquet</module>
-        <module>cdc-parent</module>
+        <module>cdc-parent</module> -->
         <module>common</module>
-        <module>dataplex</module>
+        <!-- <module>dataplex</module>
         <module>datastream-common</module>
         <module>datastream-to-bigquery</module>
         <module>datastream-to-mongodb</module>
@@ -689,14 +689,14 @@
         <module>elasticsearch-common</module>
         <module>file-format-conversion</module>
         <module>gcs-to-sourcedb</module>
-        <module>googlecloud-to-elasticsearch</module>
+        <module>googlecloud-to-elasticsearch</module> -->
         <module>googlecloud-to-googlecloud</module>
-        <module>googlecloud-to-mongodb</module>
+        <!-- <module>googlecloud-to-mongodb</module>
         <module>googlecloud-to-neo4j</module>
         <module>googlecloud-to-splunk</module>
-        <module>google-ads-to-googlecloud</module>
+        <module>google-ads-to-googlecloud</module> -->
         <module>jdbc-common</module>
-        <module>jdbc-to-googlecloud</module>
+        <!-- <module>jdbc-to-googlecloud</module>
         <module>jms-to-pubsub</module>
         <module>kafka-common</module>
         <module>kafka-to-bigquery</module>
@@ -717,13 +717,13 @@
         <module>pubsub-to-mongodb</module>
         <module>pubsub-to-redis</module>
         <module>sourcedb-to-spanner</module>
-        <module>spanner-change-streams-to-sharded-file-sink</module>
+        <module>spanner-change-streams-to-sharded-file-sink</module> -->
         <module>spanner-common</module>
-        <module>spanner-custom-shard</module>
+        <!-- <module>spanner-custom-shard</module>
         <module>spanner-migrations-sdk</module>
         <module>spanner-to-sourcedb</module>
         <module>sqlserver-to-googlecloud</module>
-        <module>streaming-data-generator</module>
+        <module>streaming-data-generator</module> -->
     </modules>
 
 </project>
